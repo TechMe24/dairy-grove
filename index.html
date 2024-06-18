@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairy Grove New</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+
 </head>
+
 <body>
     <!-- 
         Navbar Section    
     -->
 
     <nav class="navbar-section">
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="./images/logo.webp" alt="">
+            </a>
+        </div>
         <ul>
             <li>
-                <a href="#">Menu</a>
+                <a href="#" id="menuLink">Menu</a>
             </li>
             <li>
-                <a href="#">Flavors</a>
-            </li>
+                <a href="index.html#gallery">Gallery</a>
             <li>
-                <a href="#">Gallery</a>
-                <li>
-                    <a href="#">FAQ'S</a>
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-                </li>    
+                <a href="#" id="faqMenuLink">FAQ'S</a>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+            </li>
             </li>
         </ul>
     </nav>
@@ -35,16 +45,287 @@
     <main>
         <!-- Hero Section-->
         <section class="hero-section">
-            <h1>LIFE IS SWEET AT DAIRY GROVE</h1>
+            <video src="https://video.wixstatic.com/video/581b75_1cb1fe97143f4163968e7ea35d38d77f/720p/mp4/file.mp4"
+                loop autoplay muted></video>
         </section>
 
-    <!-- image gallery-->
-    <section class="image gallery">
-            <h2>Image Gallery</h2>
-            <p>Take a look at all our flavors!</p>
-            <img src="#" alt="icecream cones">
-    </section>   
+        <!-- Swiper section -->
+
+        <section id="gallery" class="swiper-section">
+            <div class="container">
+                <h2>
+                    Life Is Sweet At Dairy Grove!
+                </h2>
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-4.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-5.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-6.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-7.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-8.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-9.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-10.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-11.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-12.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-13.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-14.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-15.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-16.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-17.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-19.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-20.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-21.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-22.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-23.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-24.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-25.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-26.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-27.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dairy-28.jpg" alt="">
+                        </div>
+                        
+                        
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Callout Section -->
+
+        <section class="callout-section bg-pink">
+            <div class="container">
+                <img class="callout-image" src="./images/cow_logo.png" alt="cow logo">
+                <div>
+                    <h2>
+                        Super Premium Hard Scoop by Chocolate Shoppe!
+                    </h2>
+                    <small>*Flavors Change Daily</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="callout-section">
+            <div class="container">
+                <h2>
+                    Gluten-Free & Dairy-Free Treats Available!
+                </h2>
+                <img id="doleMenuLink" src="./images/dole-square.png" alt="dole logo">
+            </div>
+        </section>
+
+
+
+
+        <!-- FAQ Section -->
+
+        <section class="faq-section" id="faq">
+            <div class="container">
+
+                <div class="faq-section-left">
+                    <img src="/images/tokens.jpeg" alt="">
+                    <p>
+                        <strong>
+                            Ask About Our Dairy Grove Tokens!
+                        </strong>
+
+                    </p>
+
+                </div>
+
+                <div class="faq-section-right">
+                    <h2>
+                        Join our Fan Club For The Latest Events & Offers!
+                    </h2>
+
+                    <form>
+                        <label for="email">
+                            Enter your email address
+                        </label>
+                        <br>
+                        <input type="email" name="email" id="email">
+                        <input type="submit" value="submit" id="submit">
+                    </form>
+
+                    <p>
+                        <!-- By joining our news letter you will receive coupons, event info and regular updates! -->
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
     </main>
-    
+
+
+    <div class="menu-modal" id="menuModal">
+        <div class="menu-modal-image-container">
+            <div class="modal-close" id="modalClose">X</div>
+            <img src="./images/Icecream_menu.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="faq-modal" id="faqModal">
+        <div class="faq-modal-container">
+            <div class="faq-modal-close" id="faqModalClose">X</div>
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+            <div class="faq-set">
+                <b>Q: How long has Dairygrove been in exsistance?</b> 
+                <p>A: Proudly serving Northridgeville since 1961</p>
+            </div>
+
+            <div class="faq-set">
+                <b>Q:Where is Dairy Grove located? </b>
+                <p>A: 35455 Center Ridge Road <br> North Ridgeville, Ohio 44039 </p>
+            </div>
+
+            <div class="faq-set">
+                <b>Q: Does Dairy Grove have healthy options?</b>
+                <p>A: Yes, refer to our menu</p>
+            </div>
+
+            <div class="faq-set">
+                <b>Q: Is Dairy Grove pet friendly?</b>
+                <p>A: Yes, we have treats for your furry companion</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dole-modal" id="doleModal">
+        <div class="dole-modal-container">
+            <div class="dole-modal-close" id="doleModalClose">X</div>
+            <div class="container">
+
+
+                <h2>
+                    Dole Nutrition Info
+                </h2>
+
+                <p>
+                    Dole Brand Soft Serve only markets their fruit flavors, but the same great company that has always
+                    made
+                    Dole Chocolate & Vanilla flavors continues to make them and that's how we bring them to you.
+                </p>
+
+                <p>
+                    The Dole Fruit Flavors are Lactose-Free Fat-Free, Gluten-Free, Dairy-Free and Vegan.
+                </p>
+
+                <p>
+                    The Chocolate & Vanilla Flavors are Gluten-Free and Lactose-Free but NOT Dairy Free.
+                </p>
+
+                <p>
+                    Coconut, Banana, and Buttermint Flavors not listed; Product made with Vanilla Dole as a base.
+                </p>
+
+                <div class="dole-modal-images">
+                    <img src="./images/dole_nutr1.webp" alt="">
+                    <img src="./images/dole_nutr2.webp" alt="">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer and Social Media -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <span class="footer-text">
+                &copy;2024
+            </span>
+
+            <div class="footer-social">
+                <div>
+                    <a href="https://facebook.com/profile.php?id=100063573962280" target="_blank"><ion-icon
+                            name="logo-facebook"></ion-icon>
+                    </a>
+
+                    <a href="https://instagram.com/dairygrove?igsh=eHE0OGIxYm9IOXB5" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
 </body>
+
 </html>

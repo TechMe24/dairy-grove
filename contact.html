@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Grove New</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+    <!-- 
+        Navbar Section    
+    -->
+
+    <nav class="navbar-section">
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="./images/logo.webp" alt="">
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="#" id="menuLink">Menu</a>
+            </li>
+            <li>
+                <a href="index.html#gallery">Gallery</a>
+            <li>
+                <a href="#" id="faqMenuLink">FAQ'S</a>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Main Content -->
+    <main>
+
+        <!-- Contact Info -->
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-section-right">
+
+                    <div class="contact-copy">
+
+                        <p>
+                            35455 Center Ridge Road North
+                            <br>
+                            Ridgeville, OH 44039
+                            <br>
+                            (440) 327-9901
+                        </p>
+                    </div>
+
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name">
+                            <label for="name">
+                                Name
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" id="email">
+                            <label for="email">
+                                Email
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject">
+                            <label for="subject">
+                                Subject
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message"></textarea>
+                            <label for="message">
+                                Message
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit">
+                        </div>
+
+
+
+                    </form>
+
+                    <div id="map">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <div class="menu-modal" id="menuModal">
+        <div class="menu-modal-image-container">
+            <div class="modal-close" id="modalClose">X</div>
+            <img src="./images/Icecream_menu.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="faq-modal" id="faqModal">
+        <div class="faq-modal-container">
+            <div class="faq-modal-close" id="faqModalClose">X</div>
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+            <div class="faq-set">
+
+            </div>
+
+            <div class="faq-set">
+                <b>Q:Where is Dairy Grove located? </b>
+                <p>A: 35455 Center Ridge Road <br> North Ridgeville, Ohio 44039 </p>
+            </div>
+
+            <div class="faq-set">
+                <b>Q: Does Dairy Grove have healthy options?</b>
+                <p>A: Yes, refer to our menu</p>
+            </div>
+
+            <div class="faq-set">
+                <b>Q: Is Dairy Grove pet friendly?</b>
+                <p>A: Yes, we have treats for your furry companion</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Footer and Social Media -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <span class="footer-text">
+                &copy;2024
+            </span>
+
+            <div class="footer-social">
+                <div>
+                    <a href="https://facebook.com/profile.php?id=100063573962280" target="_blank"><ion-icon
+                            name="logo-facebook"></ion-icon>
+                    </a>
+
+                    <a href="https://instagram.com/dairygrove?igsh=eHE0OGIxYm9IOXB5" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+</body>
+
+</html>
