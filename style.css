@@ -209,6 +209,7 @@ Image Gallery
     max-width: 600px;
     display: flex;
     gap: 60px;
+    align-items: center;
 
 
 }
@@ -231,6 +232,17 @@ Image Gallery
 
 .faq-section-right form {
     margin-bottom: 20px;
+}
+
+.faq-section-right a{
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 25px
+}
+
+.faq-section-right a:hover{
+    color: #4bd7b2;
 }
 
 .faq-section-right h2 {
@@ -288,6 +300,14 @@ Image Gallery
 
 .contact-section-right p {
     font-size: 25px;
+}
+
+.contact-section-right a{
+    color: white;
+}
+
+.contact-section-right a:hover{
+    color: #4bd7b2;
 }
 
 .contact-section-right {
